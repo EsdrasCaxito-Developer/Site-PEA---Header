@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa de Extensão Acadêmica - Revolucionamos a educação formando os profissionais que fazem a diferença no país.">
+    <meta name="keywords" content="educação, school, cursos online, capacitação profissional, vale do silício">
+    <meta name="author" content="Programa de Extensão Acadêmica">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PEA | Programa de Extensão Acadêmica">
+    <meta property="og:description" content="Revolucionamos a educação formando os profissionais que fazem a diferença no país">
+    <meta property="og:image" content="/assets/images/logo/og-image.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Animate.css para efeitos prontos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.svg">
+    <link rel="apple-touch-icon" href="/assets/images/logo/apple-touch-icon.png">
+    
+    <title>PEA | Programa de Extensão Acadêmica</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <link rel="stylesheet" href="/styles/css/reset.css">
+    <link rel="stylesheet" href="/styles/css/variable.css">
+    <link rel="stylesheet" href="/styles/css/main.css">
+    <script src="/styles/js/include.js"></script>
+</head>
+
+<body>
+    <!-- Main Content -->
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <menu class="header__menu container flex">
+            <div class="header__logo">
+                <a href="/pages/index.html" class="logo">
+                  <img src="/assets/images/bg.png" alt="PEA Logo" class="logo__icon" width="50"/>
+                </a>
+            </div>
+            <nav class="header__navigation">
+                <button class="close__button" id="closeBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                </button>
+                <ul class="header__list flex">
+                    <li class="header__item">
+                        <a href="../pages/about.html" class="header__link">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">
+                            <span class="link__dropdown flex">
+                                Recursos
+                                <svg class="link__icon" viewBox="0 0 20 20" fill="currentColor" width="25" height="25" style="padding-block-start: .3rem;">
+                                    <path
+                                      fill-rule="evenodd"
+                                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                      clip-rule="evenodd"
+                                    />
+                                  </svg>
+                            </span>
+                            <ul class="header__dropdown flex">
+                                <li class="header__item">
+                                    <a 
+                                        href="/pages/resource/curso.html" 
+                                        class="header__link">
+                                        Cursos
+                                    </a>
+                                </li>
+                                <li class="header__item">
+                                    <a 
+                                        href="/pages/resource/bootcamp.html" 
+                                        class="header__link">
+                                        Bootcamps
+                                    </a>
+                                </li>
+                                <li class="header__item">
+                                    <a 
+                                        href="/pages/resource/hackthons.html" 
+                                        class="header__link">
+                                        Hackthons
+                                    </a>
+                                </li>
+                                <li class="header__item">
+                                    <a 
+                                        href="/pages/resource/treinamento.html" 
+                                        class="header__link">
+                                        Treinamentos
+                                    </a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a 
+                            href="../pages/community.html" class="header__link">
+                            Comunidade PEA
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a 
+                            href="/pages/peaplus.html" 
+                            class="header__link">
+                            PEA +
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a 
+                            href="/pages/blog.html" 
+                            class="header__link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="header__item">
+        
+                        <a 
+                            href="/pages/faq.html" 
+                            class="header__link">
+                            Faq
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="toggle__button" id="toggleBtn">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24" >
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z">
+                    </path>
+                </svg>
+            </button>
+         </menu>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        REVOLUCIONAMOS A 
+                        <span class="hero__title--highlight">EDUCAÇÃO</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Formando os profissionais que fazem a diferença no país
+                    </p>
+                    <p class="hero__tagline">
+                        Captar. Transformar. Conectar
+                    </p>
+                    <div class="hero__actions">
+                        <a href="https://sejapea.vercel.app/" class="btn btn--hero" target="_blank">Começar Minha Jornada</a>
+                        <a href="/pages/about.html" class="btn btn--ghost">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <video class="hero__video-bg" autoplay muted loop playsinline>
+                        <source src="/assets/videos/hero1.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats" id="stats">
+            <div class="container">
+                <div class="stats__grid">
+                    <div class="stat-card">    
+                        <div class="stat-card__number" data-target="5000">0</div>
+                        <div class="stat-card__label">
+                            <i class="uil uil-users-alt"></i>
+                            Alunos Formados</div>
+                        </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="18">0</div>
+                        <div class="stat-card__label"><i class="uil uil-building"></i>Províncias Alcançadas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="200">0</div>
+                        <div class="stat-card__label"><i class="uil uil-book-reader"></i></i>Mentores Ativos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="98">0</div>
+                        <div class="stat-card__label"><i class="uil uil-bullseye"></i>Satisfação dos Alunos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="100">0</div>
+                        <div class="stat-card__label"><i class="uil uil-star"></i>Projetos Inovadores</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__number" data-target="50">0</div>
+                        <div class="stat-card__label"><i class="uil uil-rocket"></i>Startups Criadas</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Sobre o PEA</h2>
+                    <p class="section__subtitle">
+                        O PEA conecta academia, mercado e sociedade através de bootcamps, mentorias, labaratórios de inovação e programas de impacto social, criando um ecossistema de transformação e desenvolvimento sustentável.
+                    </p>
+                </div>
+                
+                <div class="features__grid">
+                    <div class="feature-card">
+                        <h3 class="feature-card__title"><i class="uil uil-lightbulb-alt"></i> Inovação e Academia</h3>
+                        <p class="feature-card__description">
+                            Laboratório de Inovação que conecta estudantes a projetos reais, desenvolvendo habilidades práticas e inovadoras.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-card__title"><i class="uil-users-alt"></i> Conexão Academia-Mercado</h3>
+                        <p class="feature-card__description">
+                            Aproximamos estudantes das oportunidades reais do mercado de trabalho através de parcerias estratégicas.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-card__title"><i class="uil uil-notebooks"></i> Formação Prática</h3>
+                        <p class="feature-card__description">
+                            Bootcamps intensivos que oferecem formação prática e aplicada, preparando os alunos para os desafios do mercado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="courses" id="cursos">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Oportunidades</h2>
+                    <p class="section__subtitle">
+                        Conectamos diferentes sectores para criar um ecossistema de desenvolvimento sustentável.
+                    </p>
+                </div>
+
+                <div class="courses__grid">
+                    <div class="course-card">
+                        <div class="course-card__header">
+                            <h3 class="course-card__title">Parecerias Acadêmicas</h3>
+                            <p class="course-card__subtitle">Universidades</p>
+                        </div>
+                        <div class="course-card__content">
+                            <p class="course-card__description">
+                                Integração de curriculos e programas de extensão com universidades locais.
+                            </p>
+                            <ul class="course-card__features">
+                                <li>Modernização curricular</li>
+                                <li>Laboratórios Compartilhados</li>
+                                <li>Mentoria online</li>
+                                <li>Intercâmbio estudantil</li>
+                            </ul>
+                        </div>
+                        <div class="course-card__footer">
+                            <a href="#" class="btn btn--outline">Saiba Mais</a>
+                        </div>
+                    </div>
+
+                    <div class="course-card course-card--featured">
+                        <div class="course-card__badge">Mais Popular</div>
+                        <div class="course-card__header">
+                            <h3 class="course-card__title">Pesquisa e Inovação</h3>
+                            <p class="course-card__subtitle">Projetos de pesquisa aplicada</p>
+                        </div>
+                        <div class="course-card__content">
+                            <p class="course-card__description">
+                                Aulas ao vivo, grupos pequenos, prática de conversação e habilidades de negócios
+                            </p>
+                            <ul class="course-card__features">
+                                <li>Financiamento de projetos</li>
+                                <li>Publicações científicas</li>
+                                <li>Tranferência Tecnológica</li>
+                                <li>Prática intensiva</li>
+                            </ul>
+                        </div>
+                        <div class="course-card__footer">
+                            <a href="#" class="btn btn--primary">Começar Agora</a>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-card__header">
+                            <h3 class="course-card__title">Comunidade</h3>
+                            <p class="course-card__subtitle">Treinamento corporativo</p>
+                        </div>
+                        <div class="course-card__content">
+                            <p class="course-card__description">
+                                Programa de capacitação para alunos, com foco em inovação e desenvolvimento sustentável.
+                            </p>
+                            <ul class="course-card__features">
+                                <li>Educação comunitária</li>
+                                <li>Saúde preventiva</li>
+                                <li>Sustentabilidade</li>
+                                <li>Suporte dedicado</li>
+                            </ul>
+                        </div>
+                        <div class="course-card__footer">
+                            <a href="https://wa.me/244953495980?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!" target="_blank" class="btn btn--outline">Falar com Consultor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Companies Section -->
+        <section class="companies" id="empresas">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Empresas que confiam em nossos treinamentos</h2>
+                </div>
+                <div class="relative w-full overflow-hidden">
+                    <div class="flex gap-12 animate-scroll">
+                    <!-- Lista duplicada para efeito infinito -->
+                    <div class="flex gap-12 shrink-0">
+                        <img src="/assets/images/partners/imagens/parceria 1.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 2.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 3.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 4.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 5.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 6.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 7.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 8.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 9.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 10.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 11.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 12.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                    </div>
+
+                    <!-- Duplicação para loop -->
+                    <div class="flex gap-12 shrink-0">
+                        <img src="/assets/images/partners/imagens/parceria 1.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 2.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 3.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 4.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 5.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 6.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 7.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 8.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 9.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 10.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 11.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 12.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                        <img src="/assets/images/partners/imagens/parceria 13.png" class="h-20 w-auto object-contain hover:scale-110 transition duration-500">
+                    </div>
+                    </div>
+                </div>
+                            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="depoimentos">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">O que nossos alunos dizem</h2>
+                </div>
+                
+                <div class="testimonials__grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p>"A Conquer transformou completamente minha visão sobre educação e carreira. Os métodos são práticos e realmente funcionam no dia a dia."</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="/assets/images/bg/student-avatar.png" alt="Maria Silva" class="testimonial-card__avatar">
+                            <div>
+                                <h4>Maria Silva</h4>
+                                <span>Product Manager na Google</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p>"Em 6 meses consegui uma promoção que buscava há anos. O conhecimento adquirido na Conquer foi fundamental para essa conquista."</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="/assets/images/bg/student-avatar.png" alt="João Santos" class="testimonial-card__avatar">
+                            <div>
+                                <h4>João Santos</h4>
+                                <span>Diretor Comercial na Microsoft</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p>"A metodologia é inovadora e os professores são excepcionais. Recomendo para qualquer profissional que queira se destacar."</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="/assets/images/bg/professor-avatar.png" alt="Ana Costa" class="testimonial-card__avatar">
+                            <div>
+                                <h4>Ana Costa</h4>
+                                <span>CEO na Startup Tech</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Pronto para revolucionar sua carreira?</h2>
+                    <p class="cta__subtitle">
+                        Junte-se aos muitos profissionais que já transformaram suas vidas
+                    </p>
+                    <div class="cta__actions">
+                        <a href="https://sejapea.vercel.app/" class="btn btn--cta" target="_blank">Começar Agora Mesmo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+
+    <!-- JavaScript Files -->
+    <script src="/styles/js/main.js"></script>
+    <script>
+        // includeHTML("header", "../partials/header.html");
+        includeHTML("footer", "../partials/footer.html");
+    </script>
+    <script>
+        const headerNavigation = 
+                document.querySelector(".header__navigation"),
+              linkDropdown = 
+                document.querySelector(".link__dropdown"),
+              toggleBtn = 
+                document.getElementById("toggleBtn"),
+              closeBtn = 
+                document.getElementById("closeBtn") ;
+        
+        toggleBtn.addEventListener("click", ()=>{
+            headerNavigation.classList.add("show")
+        })
+        
+        closeBtn.addEventListener("click", ()=>{
+            headerNavigation.classList.remove("show")
+        })
+
+        linkDropdown.parentElement.addEventListener("mouseenter", (e) =>{
+            dropdownAddShowClass()
+        })
+
+        const dropdownAddShowClass = () =>{
+
+            const dropdownList = document.querySelector(".header__dropdown");
+
+            dropdownList.classList.toggle("show")
+        }
+        
+    </script>
+</body>
+</html>
